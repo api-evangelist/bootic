@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bootic is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/bootic
+Bootic is an e‑commerce platform based in Chile, offering a marketplace where multiple vendors sell products through a unified shopping experience. The site provides a modern storefront, advanced search, and integration options for businesses to reach customers online.
+
+**Areas:** E-Commerce · Marketplace · Chile · Platform · Retail
+
+## Bootic on APIs.io
+
+Everything profiled for Bootic is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bootic/](https://apis.io/providers/bootic/)** — or go straight to one of the APIs or properties below.
+
+### APIs (19)
+
+- [Bootic Catalog API](https://apis.io/apis/bootic/bootic-catalog-api/) — The Catalog API from Bootic — 3 operation(s) for catalog.
+- [Bootic Collections API](https://apis.io/apis/bootic/bootic-collections-api/) — Curated product collections (manually or rule-based). Products can belong to multiple collections.
+- [Bootic Content API](https://apis.io/apis/bootic/bootic-content-api/) — CMS-style content for a shop's storefront — blog posts, static pages, and contact/lead-capture forms.
+- [Bootic Customers API](https://apis.io/apis/bootic/bootic-customers-api/) — Shop customers. Includes customer authentication and password-reset flows.
+- [Bootic Orders API](https://apis.io/apis/bootic/bootic-orders-api/) — Shop orders. Supports batch status updates and per-order document management.
+- [Bootic Price Lists API](https://apis.io/apis/bootic/bootic-price-lists-api/) — Named price lists for B2B / wholesale pricing. Products can have per-variant price overrides within a price list.
+- [Bootic Product Types API](https://apis.io/apis/bootic/bootic-product-types-api/) — Product type definitions used to group and filter catalog products.
+- [Bootic Products API](https://apis.io/apis/bootic/bootic-products-api/) — Catalog products, automatically scoped to the authenticated account's sellers. Account-scoped tokens need no extra parameters; tokens without an…
+- [Bootic Promotions API](https://apis.io/apis/bootic/bootic-promotions-api/) — Promotional discount codes and automatic discounts applied at checkout.
+- [Bootic Root API](https://apis.io/apis/bootic/bootic-root-api/) — API entry point — embeds sellers, shops, and navigation links to every resource
+- [Bootic Sellers API](https://apis.io/apis/bootic/bootic-sellers-api/) — Seller entities — the business layer between an account and its shops. An account can have multiple sellers, each owning one or more shops and their product…
+- [Bootic Shops API](https://apis.io/apis/bootic/bootic-shops-api/) — Shops owned by the authenticated account. A shop is the customer-facing storefront that belongs to a seller. Settings, admins, shipping tables, payment…
+- [Bootic Store API](https://apis.io/apis/bootic/bootic-store-api/) — The Store API from Bootic — 1 operation(s) for store.
+- [Bootic Subscriptions API](https://apis.io/apis/bootic/bootic-subscriptions-api/) — Recurring product subscriptions. `SubscriptionFee` defines the recurring payment terms attached to a product/variant; `SubscriptionPurchase` is a customer's…
+- [Bootic Themes API](https://apis.io/apis/bootic/bootic-themes-api/) — Hosted-storefront themes, templates, and assets. Applies only to shops with a hosted storefront (`store:` namespace); absent for headless shops.
+- [Bootic Variants API](https://apis.io/apis/bootic/bootic-variants-api/) — Product variants (size, colour, etc.). Nested under `/products/{product_id}/variants`. Each variant holds its own SKU, price, stock level, and images.
+- [Bootic Volume Discounts API](https://apis.io/apis/bootic/bootic-volume-discounts-api/) — Quantity-based discount rules (tiered pricing by units purchased).
+- [Bootic Wallets API](https://apis.io/apis/bootic/bootic-wallets-api/) — Points and store-credit wallets, one per contact per program. A seller runs at most one active `PointsProgram` and one active `CreditProgram`, each covering…
+- [Bootic Webhooks API](https://apis.io/apis/bootic/bootic-webhooks-api/) — Event webhooks. Subscribe to events such as `orders.created`, `products.updated`, etc. Inactive subscriptions can be reactivated and their delivery history…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Bootic Webhooks](https://apis.io/asyncapis/bootic/bootic-webhooks/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Bootic Openapi Overlay](https://apis.io/overlays/bootic/bootic-openapi-overlay/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bootic Authentication](https://apis.io/security/bootic/bootic-authentication/)
+- [Bootic Domain Security](https://apis.io/security/bootic/bootic-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.bootic.io)
+- [Documentation](https://dev.bootic.io/)
+- [Getting started](https://api.onbolder.com/docs/v2#getting-started)
+- [API reference](https://api.onbolder.com/)
+- [Blog](https://www.bootic.io/blog/2009/12/13/hola-mundo)
+- [GitHub](https://github.com/bootic)
+
+## API Evangelist rating
+
+**Kin Score 41.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 60.9 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 29.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bootic/](https://apis.io/providers/bootic/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bootic: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bootic/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
